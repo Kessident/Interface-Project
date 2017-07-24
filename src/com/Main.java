@@ -58,7 +58,7 @@ public class Main {
         System.out.println(s5.strike());
         System.out.println(s5.shoot());
         System.out.println(s5.reload());
-        
+
         System.out.println();
 
         System.out.println(s1.getRank() + " giving order to " + s2.getRank());
@@ -91,5 +91,11 @@ public class Main {
         System.out.println("----------------------------------");
         System.out.println(s5.getRank() + " giving order to " + s6.getRank());
         System.out.println(s5.giveOrder(s6, "eat"));
+
+        System.out.println();
+
+        Pilot p1 = new Pilot("First Pilot");
+        System.out.println("I am a pilot");
+        System.out.println(p1.dropIt().toString());
     }
 }
