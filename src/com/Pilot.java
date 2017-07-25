@@ -40,7 +40,7 @@ public class Pilot extends Soldier implements Bombing {
     }
 
     @Override
-    public Bomb dropIt() {
+    public Bomb dropThisBomb() {
         return new Bomb();
     }
 }
